@@ -11,9 +11,8 @@ public class HelloWorldController {
 		return "helloworld-form";
 	}
 	
-//	@RequestMapping("/")
-//	public String asdlfasdf() {
-//		return "";
-//	}
-//	
+	@RequestMapping("/processForm")
+	public String processForm() {
+		return "helloworld";
+	}
 }
